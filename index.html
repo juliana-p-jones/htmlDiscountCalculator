@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="box1">
+            <div class="row" id="productprice">
+                <div class="row">
+                    <h5>Product Price</h5>
+                </div>
+                <input type="number" class="row" id="priceinput">
+            </div>
+            <div class="row" id="discountamount">
+                <div class="row">
+                    <h5>Discount Amount</h5>
+                </div>
+                <input type="number" class="row" id="discountinput">
+            </div>
+            <div class="row">
+                <button type="button" id="calculate" class="row" onclick="calculate()">
+                    <h5>Calculate</h5>
+                </button>
+            </div>
+            <div class="row">
+                <div id="total" class="row">
+                    <h5>Total</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
